@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background: hsl(204, 43%, 93%);
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  opacity: 0.7;
+  line-height: 1.4;
+  font-size: 14px;
+}
+.grid-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  /* padding: 3rem; */
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.26);
+}
+
+.grid-container .full-width {
+  padding: 35px 45px;
+  line-height: 1.6rem;
+  max-width: 630px;
+}
+
+.full-width h3 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 0.9rem;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.full-width h4 {
+  color: hsl(71, 79%, 55%);
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.full-width p {
+  color: hsl(218, 22%, 67%);
+}
+.bottom-row {
+  display: flex;
+  color: #fff;
+}
+.bottom-row .left {
+  min-width: 22rem;
+  background: hsl(179, 44%, 46%);
+  padding: 30px 45px;
+  border-bottom-left-radius: 0.4rem;
+}
+
+.bottom-row .left h4 {
+  font-size: 19px;
+  margin-bottom: 0.7rem;
+}
+
+.bottom-row .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.bottom-row span {
+  font-size: 42px;
+  margin-right: 0.5rem;
+}
+
+.bottom-row .price p {
+  opacity: 0.6;
+  font-size: 17px;
+}
+
+.bottom-row .full-access {
+  margin-bottom: 1rem;
+}
+
+.bottom-row button {
+  padding: 1rem 3rem;
+  width: 100%;
+  border: none;
+  color: #fff;
+  background: hsl(71, 79%, 55%);
+  outline: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.9;
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.bottom-row .right {
+  opacity: 0.8;
+  background: #2ea8a6;
+  border-bottom-right-radius: 0.4rem;
+  padding: 30px 40px;
+  line-height: 1.4rem;
+  min-width: 350px;
+}
+
+.bottom-row .right h3 {
+  font-size: 19px;
+  margin-bottom: 0.9rem;
+  opacity: 0.8;
+}
